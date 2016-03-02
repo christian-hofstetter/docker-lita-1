@@ -1,0 +1,7 @@
+redis:
+  image: redis
+
+lita:
+  build: .
+  links:
+    - redis:redis
