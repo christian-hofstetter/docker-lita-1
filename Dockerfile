@@ -12,7 +12,7 @@ RUN apk add --no-cache --virtual bundle-build libxml2-dev libxslt-dev build-base
     bundle install --without development test && \
     apk del bundle-build
 
-ADD supervisord.conf /etc/supervisor.d/lita.ini
+# ADD supervisord.conf /etc/supervisor.d/lita.ini
 ADD ./ /app
 
 ENTRYPOINT /app/start.sh
