@@ -16,8 +16,6 @@ gem "lita-applause"
 gem "lita-pugbomb"
 gem "lita-flip"
 gem "lita-cron"
-gem "lita-zooniverse", git: 'https://github.com/zooniverse/lita-zooniverse.git'
-gem 'lita-bucket', git: 'https://github.com/marten/lita-bucket.git'
 
 gem 'dotenv'
 
