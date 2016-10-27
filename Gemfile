@@ -3,7 +3,7 @@ source "https://rubygems.org"
 gem "lita"
 
 group :production do
-  gem "lita-slack"
+  gem "lita-hipchat"
 end
 
 gem "lita-karma"
